@@ -41,7 +41,6 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
-    'django_telegram_login',
     'buddy_app.apps.BuddyAppConfig',
     'vaccine_and_treatment_app.apps.VaccineAndTreatmentAppConfig'
 
