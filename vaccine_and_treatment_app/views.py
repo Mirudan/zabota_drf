@@ -11,7 +11,7 @@ class VaccineRabiesList(generics.ListAPIView):
     serializer_class = VaccineRabiesSerializer
 
 
-class VaccineRabiesCreate(generics.RetrieveAPIView):
+class VaccineRabiesCreate(generics.CreateAPIView):
     """
     Создание записи о вакцине от бешенства
     """
@@ -43,7 +43,7 @@ class TreatmentList(generics.ListAPIView):
     serializer_class = TreatmentSerializer
 
 
-class TreatmentCreate(generics.RetrieveAPIView):
+class TreatmentCreate(generics.CreateAPIView):
     """
     Создание записи об обработке
     """
